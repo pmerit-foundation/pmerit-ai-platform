@@ -506,7 +506,7 @@ if (typeof window.logger === 'undefined') {
           });
 
           // Call Worker API TTS endpoint
-          const apiBase = window.CONFIG?.API_BASE_URL || 'https://pmerit-api-worker.peoplemerit.workers.dev';
+          const apiBase = window.CONFIG?.API_BASE_URL || 'https://api.pmerit.com';
           const res = await fetch(`${apiBase}/api/v1/tts`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

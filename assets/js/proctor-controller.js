@@ -51,7 +51,7 @@
      */
     constructor(config = {}) {
       this.config = {
-        apiBase: config.apiBase || window.CONFIG?.API_BASE_URL || 'https://pmerit-api-worker.peoplemerit.workers.dev',
+        apiBase: config.apiBase || window.CONFIG?.API_BASE_URL || 'https://api.pmerit.com',
         maxViolations: config.maxViolations || 3,
         warningThreshold: config.warningThreshold || 2,
         autoSubmitOnMaxViolations: config.autoSubmitOnMaxViolations !== false,

@@ -23,7 +23,7 @@ export async function onRequest(context) {
     'Content-Security-Policy',
     "default-src 'self'; " +
     "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://fonts.googleapis.com; " +
-    "connect-src 'self' https://pmerit-api.idowuolalekan1.workers.dev; " +
+    "connect-src 'self' https://api.pmerit.com; " +
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; " +
     "font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; " +
     "img-src 'self' data: https:; " +

@@ -33,7 +33,7 @@
   // API Base URL - Use actual backend in production
   const API_BASE_URL = env === 'development'
     ? 'http://localhost:8787'  // Local wrangler dev server
-    : 'https://pmerit-api-worker.peoplemerit.workers.dev';
+    : 'https://api.pmerit.com';
 
   const config = {
     ENV: env,

@@ -27,7 +27,7 @@
     // API Base URL
     API_BASE: window.location.hostname === 'localhost'
       ? 'http://localhost:8787'
-      : 'https://pmerit-api-worker.peoplemerit.workers.dev',
+      : 'https://api.pmerit.com',
 
     // Stripe Publishable Key (Live)
     STRIPE_PUBLISHABLE_KEY: 'pk_live_51SfjNn1Uy2Gsjci2z7mdDxheSQCtVESBHHa6ha1MjhHI0MK8BERvkgBezle3pZKLTYBauvSUtYVCA8UQZGZ3qNui00xzpcTCpD',

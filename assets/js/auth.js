@@ -11,7 +11,7 @@
   'use strict';
 
   // API Configuration
-  const API_BASE = 'https://pmerit-api-worker.peoplemerit.workers.dev/api/v1';
+  const API_BASE = 'https://api.pmerit.com/api/v1';
   const USE_MOCK_FALLBACK = true; // Set to false to disable mock fallback
 
   // Session configuration (GAP-1: 24 hour max session)

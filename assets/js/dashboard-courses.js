@@ -10,7 +10,7 @@
 (function () {
   'use strict';
 
-  const API_BASE = 'https://pmerit-api-worker.peoplemerit.workers.dev/api/v1';
+  const API_BASE = 'https://api.pmerit.com/api/v1';
 
   const DashboardCourses = {
     /**

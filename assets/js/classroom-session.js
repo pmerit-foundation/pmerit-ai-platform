@@ -9,7 +9,7 @@
 window.ClassroomSession = (function () {
   'use strict';
 
-  const API_BASE_URL = window.CONFIG?.API_BASE_URL || 'https://pmerit-api-worker.peoplemerit.workers.dev';
+  const API_BASE_URL = window.CONFIG?.API_BASE_URL || 'https://api.pmerit.com';
 
   // Session state
   let sessionState = {

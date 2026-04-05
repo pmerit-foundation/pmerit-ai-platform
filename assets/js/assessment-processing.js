@@ -24,7 +24,7 @@
     constructor() {
       // Configuration
       this.config = {
-        API_ENDPOINT: 'https://pmerit-api-worker.peoplemerit.workers.dev/api/v1/assessment/submit',
+        API_ENDPOINT: 'https://api.pmerit.com/api/v1/assessment/submit',
         RESULTS_PAGE: 'assessment-results.html',
         STEP_DURATION: 2000, // 2 seconds per step
         FACT_DURATION: 3000, // 3 seconds per fact

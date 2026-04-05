@@ -22,7 +22,7 @@
      */
     constructor(config = {}) {
       this.config = {
-        apiBase: config.apiBase || 'https://pmerit-api-worker.peoplemerit.workers.dev',
+        apiBase: config.apiBase || 'https://api.pmerit.com',
         ttsEndpoint: config.ttsEndpoint || '/api/v1/tts',
         defaultVoice: config.defaultVoice || 'alloy',
         cacheEnabled: config.cacheEnabled !== false,

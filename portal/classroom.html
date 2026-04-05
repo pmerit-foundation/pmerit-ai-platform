@@ -1140,7 +1140,7 @@
             canvasId: null, // Don't use canvas - GPUStreaming handles it
             captionsId: 'vh-captions',
             enabled: false, // Disable WebGL provider
-            apiBaseUrl: window.CONFIG?.API_BASE_URL || 'https://pmerit-api-worker.peoplemerit.workers.dev',
+            apiBaseUrl: window.CONFIG?.API_BASE_URL || 'https://api.pmerit.com',
             onSpeakStart: () => {
               dom.vhContainer.classList.add('speaking');
               dom.avatarFrame?.classList.add('speaking');
@@ -1533,7 +1533,7 @@
 
             if (isPremiumVoice) {
               // Server voice preview (premium voices via RunPod)
-              const apiBase = window.CONFIG?.API_BASE_URL || 'https://pmerit-api-worker.peoplemerit.workers.dev';
+              const apiBase = window.CONFIG?.API_BASE_URL || 'https://api.pmerit.com';
               const res = await fetch(`${apiBase}/api/v1/tts`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -2358,7 +2358,7 @@
             tutorContext.course_id = state.courseId;
           }
 
-          const response = await fetch(`${window.CONFIG?.API_BASE_URL || 'https://pmerit-api-worker.peoplemerit.workers.dev'}/api/v1/ai/tutor`, {
+          const response = await fetch(`${window.CONFIG?.API_BASE_URL || 'https://api.pmerit.com'}/api/v1/ai/tutor`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

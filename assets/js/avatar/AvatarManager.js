@@ -195,7 +195,7 @@
      */
     async _getTTS(text, options = {}) {
       // Always use the full Worker API URL for TTS
-      const apiBase = window.CONFIG?.API_BASE_URL || 'https://pmerit-api-worker.peoplemerit.workers.dev';
+      const apiBase = window.CONFIG?.API_BASE_URL || 'https://api.pmerit.com';
       const ttsUrl = `${apiBase}/api/v1/tts`;
 
       try {

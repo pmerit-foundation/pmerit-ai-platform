@@ -7,8 +7,8 @@
 class TTSClient {
   constructor() {
     // API configuration
-    this.apiUrl = 'https://pmerit-api-worker.peoplemerit.workers.dev/api/v1/tts';
-    this.quotaUrl = 'https://pmerit-api-worker.peoplemerit.workers.dev/api/v1/tts/quota';
+    this.apiUrl = 'https://api.pmerit.com/api/v1/tts';
+    this.quotaUrl = 'https://api.pmerit.com/api/v1/tts/quota';
     
     // Audio cache (prevent duplicate API calls)
     this.cache = new Map();

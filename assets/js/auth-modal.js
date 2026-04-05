@@ -548,7 +548,7 @@
 
       try {
         // Call K-12 registration endpoint
-        const apiUrl = window.CONFIG?.API_BASE_URL || 'https://pmerit-api-worker.peoplemerit.workers.dev';
+        const apiUrl = window.CONFIG?.API_BASE_URL || 'https://api.pmerit.com';
         const response = await fetch(`${apiUrl}/api/v1/auth/register-k12`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -840,7 +840,7 @@
       }
 
       try {
-        const apiUrl = window.CONFIG?.API_BASE_URL || 'https://pmerit-api-worker.peoplemerit.workers.dev';
+        const apiUrl = window.CONFIG?.API_BASE_URL || 'https://api.pmerit.com';
         const response = await fetch(`${apiUrl}/api/v1/auth/resend-verification`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },

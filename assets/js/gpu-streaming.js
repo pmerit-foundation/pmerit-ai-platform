@@ -79,7 +79,7 @@
      */
     constructor(config = {}) {
       this.config = {
-        apiBase: config.apiBase || window.CONFIG?.API_BASE_URL || 'https://pmerit-api-worker.peoplemerit.workers.dev',
+        apiBase: config.apiBase || window.CONFIG?.API_BASE_URL || 'https://api.pmerit.com',
         idleTimeout: config.idleTimeout || 300000, // 5 minutes
         maxSessionDuration: config.maxSessionDuration || 3600000, // 1 hour
         regions: config.regions || ['us-east', 'us-west', 'eu-west'],
